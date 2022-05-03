@@ -15,5 +15,22 @@
         <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
         <img src="imagens/foto-g.png" alt="Imagem flexivel"></picture> <!--Imagens com várias sources-->
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls autoplay loop> 
+        <!--Auto = Carrega o arquivo junto do site
+        Metadata = Carrega as informações, depois se necessário carrega o arquivo
+        None = Não carrega o arquivo
+        Controls = Controles da Midia
+        Autoplay = Começa automaticamente (Bugado!)
+        Loop = Quando midia acabar começa sozinho de novo-->
+        <source src="midia/seaside-piazza.mp3" type="audio/mpeg">
+        <source src="midia/seaside-piazza.ogg" type="audio/ogg">
+        <source src="midia/seaside-piazza.wav" type="audio/wav">
+        <!--Arquivos WAV são MUITO pesados, evitar-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/seaside-piazza.mp3">Clique para baixar o arquivo MP3</a></p>
+    </audio>
+    <!--MP3, WAV e OGG-->
 </body>
 </html>
