@@ -35,6 +35,7 @@ main{
     padding: 10px;
     margin: auto;
 }
+
 main > h1{
     font-family: 'Android', Arial, Helvetica, sans-serif;
     color: #226941;
