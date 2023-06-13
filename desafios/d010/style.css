@@ -53,3 +53,50 @@ main > div.caixa01 > p{
     text-align: justify;
     text-indent: 30px;
 }
+main > img.img03{
+    display: block;
+    margin: auto;
+}
+main > iframe{
+    display: block;
+    margin: auto;
+}
+
+main > div.caixa01{
+    background-color: #99f8c4;
+    border-radius: 30px;
+}
+main > div.caixa01 > h3{
+    background-color: #1cb15f;
+    color: white;
+
+    padding: 25px 10px 10px 10px;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: auto;
+    
+}
+
+main > div.caixa01 > div.caixa02{
+    padding: 0px 10px 10px 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main > div.caixa01 > div.caixa02 > ul{
+    text-indent: 0px;
+    columns: 2;
+    list-style-image: url("imagens/chack-mark-p.png");
+}
+
+footer{
+    background-color: #21382b;
+    color: white;
+
+    margin-top: 10px;
+    padding: 5px;
+
+    text-align: center;
+}
+footer > label.big{
+    font-weight: bold;
+}
