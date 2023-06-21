@@ -57,9 +57,18 @@ main > img.img03{
     display: block;
     margin: auto;
 }
-main > iframe{
+main > div.video{
+    padding: 25px;
+    background-color: #205236;
+    width: 770px;
+    display: block;
+    margin-left: -10px;
+}
+main > div.video > iframe{
     display: block;
     margin: auto;
+    width: 700px;
+    height: 400px;
 }
 
 main > div.caixa01{
