@@ -5,11 +5,35 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Bison';
+    src: url('fontes/Bison-Bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color: #84E1AD;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
+
+a {
+    color: #226941;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.especial::after{
+    content: url('imagens/link_p.png');
+}
+a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+
 
 header{
     background-image: linear-gradient(to bottom, #2eff8c, #21382b);
@@ -18,7 +42,13 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: 'Bison', Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 3em;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.473);
+}
+header > h2{
+    font-weight: normal;
 }
 div#menu{
     text-align: left;
@@ -27,6 +57,7 @@ div#menu{
 div#menu > span{
     margin: 5px 15px;
 }
+
 
 main{
     background-color: white;
@@ -42,7 +73,8 @@ main > h1{
 }
 main > h2{
     font-family: 'Android', Arial, Helvetica, sans-serif;
-    background-color: #2eff8c;
+    background-image: linear-gradient(to right, #2eff8c, white);
+    padding: 2px 2px 2px 5px;
     color: #226941;
 }
 main > p{
@@ -96,6 +128,7 @@ main > div.caixa01 > div.caixa02 > ul{
     columns: 2;
     list-style-image: url("imagens/chack-mark-p.png");
 }
+
 
 footer{
     background-color: #21382b;
