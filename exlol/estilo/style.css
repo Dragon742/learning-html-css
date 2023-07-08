@@ -42,13 +42,17 @@ header h2{
 .menu-index{
     padding: 20px;
     text-align: center;
+    columns: 2;
 }
 .menu-index a{
-    background-color: #8621FD;
+    
+    display: block;
+    background-color: var(--cor05);
 
-    margin: auto;
-    padding: 10px;
-    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
 
+    border-radius: 10px;
 
 }
